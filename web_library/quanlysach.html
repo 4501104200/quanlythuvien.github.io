@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/feature.css">
+    <script src="https://kit.fontawesome.com/7c4c53d836.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+       <div class="header">
+            <div class="header__user">
+                <h4 class="header__user-name">Admin<i class="fa-solid fa-caret-down header__user-icon"></i></h4>  
+            </div>
+       </div>
+       <div class="container">
+            <div class="container__title">
+                <h2 class="container__title-name">Book Lists</h2>
+            </div>
+            <div class="container__content">
+                <div class="container__content-head">
+                    <div class="container__content-name"><i class="fa-solid fa-file container__content-icon--reports"></i>Book Lists</div>
+                    <div class="container-print">
+                        <button class="container__content-print"><i class="fa-solid fa-print container__content-icon--print"></i>Print Books Barcode</button>
+                        <button class="container__content-print"><i class="fa-solid fa-print container__content-icon--print"></i>Print Books Lists</button>
+                        <button class="container__content-add"><i class="fa-solid fa-plus container__content-icon--add"></i>Add Book</button>
+                    </div>
+
+
+                </div>
+
+                <div class="container__content-nav-select">
+                    <div class="nav-list">
+                        <a href="/" class="nav-list--items active">All</a>
+                        <a href="/" class="nav-list--items">New Books</a>
+                        <a href="/" class="nav-list--items">Old Books</a>
+                        <a href="/" class="nav-list--items">Lost Books</a>
+                        <a href="/" class="nav-list--items">Damaged Books</a>
+                        <a href="/" class="nav-list--items">Subject for Replacement Books</a>
+                        <a href="/" class="nav-list--items">Hardbound Books</a>
+                    </div>
+                
+                </div>
+
+                <div class="line"></div>
+
+                <div class="content-box">
+                    <div class="content-box-page">
+                        <div class="btn-page">
+                            <button class="page-number">10<i class="fa-solid fa-caret-down icon-page"></i></button><span class="text-page">records per page</span>
+                        </div>
+                        <div class="page-search">
+                            <button class="btn-search"><i class="fa-solid fa-magnifying-glass icon-search"></i></button>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="content-box__table">
+                        <table>
+                            <tr>
+                              <th>Book Image</th>
+                              <th>Barcode</th>
+                              <th>Title</th>
+                              <th>ISBN</th>
+                              <th>Author/s</th>
+                              <th>Copies</th>
+                              <th>Category</th>
+                              <th>Status</th>
+                              <th>Remarks</th>
+                              <th>Action</th>
+                            </tr>
+                            <tr>
+                              <td><img src="/assets/img/book-hh-1.jpg" alt="Ảnh sách" style="width:100px; height:100px"></td>
+                              <td>VNHS7LMS</td>
+                              <td>GinLong Pamana Wika at Pantikan</td>
+                              <td>971-07-1885</td>
+                              <td>Lotilia R.Nakpil Leticia F Dominguez</td>
+                              <td>12</td>
+                              <td>Filprinias</td>
+                              <td>Old</td>
+                              <td>Avaliable</td>
+                              <td>
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button><i class="fa-solid fa-screwdriver-wrench"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img src="/assets/img/book-hh-2.jpg" alt="Ảnh sách" style="width:100px; height:100px"></td>
+                                <td>SNHA9LMS</td>
+                                <td>LanSong Padana Wika at Pantikan</td>
+                                <td></td>
+                                <td> R.Nakpil Leticia</td>
+                                <td>1</td>
+                                <td>English</td>
+                                <td>Lost</td>
+                                <td>Not Avaliable</td>
+                                <td>
+                                  <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                  <button><i class="fa-solid fa-screwdriver-wrench"></i></button>
+                                </td>
+                            </tr>
+                          </table>
+                    </div>
+                </div>
+
+            </div>
+       </div>
+    </div>
+</body>
+</html>

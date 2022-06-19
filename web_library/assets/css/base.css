@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+:root{
+    --white-color : #fff;
+    --text-color : #333;
+    --black-color : #000;
+    --blue-color : rgb(114, 114, 247);
+}
+
+html{
+    font-size: 62.5%; /*tương đương 10px*/
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
